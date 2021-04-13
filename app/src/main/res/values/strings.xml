@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Casas</string>
+    <string name="maintextview_type">Type</string>
+    <string name="maintextview_floor">Floor</string>
+    <string name="maintextview_spacious">Spacious</string>
+    <string name="maintextview_builtin">Built In</string>
+    <string name="maintextview_zip">Zip</string>
+</resources>

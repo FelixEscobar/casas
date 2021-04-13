@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Titulo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Basic info"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <TextView
+        android:id="@+id/textViewType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/maintextview_type"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/gray"
+        app:layout_constraintStart_toStartOf="@+id/Titulo1"
+        app:layout_constraintTop_toTopOf="@id/Titulo1" />
+
+
+    <TextView
+        android:id="@+id/textView2Type"
+        android:layout_width="95dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="48dp"
+        android:text="Medium House"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@id/textViewType"
+        app:layout_constraintTop_toTopOf="@+id/Titulo1" />
+
+    <TextView
+        android:id="@+id/textViewFloor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/maintextview_floor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/gray"
+        app:layout_constraintStart_toStartOf="@id/textViewType"
+        app:layout_constraintTop_toBottomOf="@+id/textViewType" />
+
+    <TextView
+        android:id="@+id/textView2Floor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:text="1"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textViewType"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toEndOf="@+id/textViewType"
+        app:layout_constraintStart_toStartOf="@id/textViewType"
+        app:layout_constraintTop_toBottomOf="@+id/Titulo1" />
+
+    <TextView
+        android:id="@+id/textViewSpacious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/maintextview_spacious"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/gray"
+        app:layout_constraintStart_toStartOf="@id/textViewFloor"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFloor" />
+
+    <TextView
+        android:id="@+id/textView2Spacious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="64dp"
+        android:text="857 sqft"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toEndOf="@+id/textViewType"
+        app:layout_constraintStart_toStartOf="@id/textViewType"
+        app:layout_constraintTop_toBottomOf="@+id/Titulo1" />
+
+    <TextView
+        android:id="@+id/textViewBuiltIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/maintextview_builtin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/gray"
+        app:layout_constraintStart_toStartOf="@id/textViewSpacious"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSpacious" />
+
+    <TextView
+        android:id="@+id/textView2BuiltIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="84dp"
+        android:text="2005"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toEndOf="@+id/textViewType"
+        app:layout_constraintStart_toStartOf="@id/textViewType"
+        app:layout_constraintTop_toBottomOf="@+id/Titulo1" />
+
+    <TextView
+        android:id="@+id/textViewZip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/maintextview_zip"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/gray"
+        app:layout_constraintStart_toStartOf="@id/textViewBuiltIn"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBuiltIn" />
+
+    <TextView
+        android:id="@+id/textView2Zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="112dp"
+        android:text="212122"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textViewType"
+        app:layout_constraintStart_toStartOf="@id/textViewType"
+        app:layout_constraintTop_toBottomOf="@+id/Titulo1" />
+
+    <TextView
+        android:id="@+id/Titulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="Show More"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174" />
+
+
+    <LinearLayout
+        android:id="@+id/Linear"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/gray"
+        android:orientation="horizontal"
+        android:padding="150dp"
+        app:layout_constraintTop_toBottomOf="@id/Titulo2"
+        app:layout_constraintTop_toTopOf="@id/Titulo2"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/Linear"
+        app:srcCompat="@mipmap/apartamento1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="@+id/imageView1"
+        app:layout_constraintTop_toTopOf="@id/Linear"
+        app:srcCompat="@mipmap/apartamento2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@id/Linear"
+        app:srcCompat="@mipmap/apartamento3" />
+
+    <LinearLayout
+        android:id="@+id/Linear2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="110dp"
+        android:background="@color/gray"
+        android:orientation="horizontal"
+        android:padding="110dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"></LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
